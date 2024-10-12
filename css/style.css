@@ -140,7 +140,7 @@ a:visited {
   outline: none !important;
   background-color: transparent;
   border-radius: 3px;
-  background-color: #eb4343;
+  background-color: #021200;
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 500;
@@ -367,7 +367,7 @@ a:visited {
 }
 
 .topbar-one__btn {
-  background-color: #1A3871;
+  background-color: #021200;
   font-size: 17px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -2512,7 +2512,7 @@ a:visited {
 
 .cta-two {
   padding: 55px 0;
-  background-color: #09A0BA;
+  background-color: #021200;
   text-align: center;
 }
 
@@ -2942,7 +2942,7 @@ a:visited {
 .feature-one {
   padding-top: 100px;
   padding-bottom: 70px;
-  background-color: #D5EAF4;
+  background-color: #c1eb4f;
 }
 
 .feature-one__box {
@@ -3147,7 +3147,7 @@ a:visited {
 .testimonials-one {
   padding-top: 90px;
   padding-bottom: 190px;
-  background-color: #1A3871;
+  background-color: #021200;
 }
 
 .testimonials-one .row {
@@ -3558,7 +3558,7 @@ a:visited {
 * 12. footer style
 */
 .site-footer {
-  background-color: #161F2D;
+  background-color: #021200;
 }
 
 .footer-col {
