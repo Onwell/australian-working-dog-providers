@@ -54,6 +54,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #797979;
+  background-color: #E8F1E6 !important;
 }
 
 a:active,
@@ -140,7 +141,7 @@ a:visited {
   outline: none !important;
   background-color: transparent;
   border-radius: 3px;
-  background-color: #021200;
+  background-color: #EB4343;
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 500;
@@ -606,13 +607,12 @@ a:visited {
 }
 
 .header-navigation {
-  background-color: transparent;
+  background-color: #E8F1E6;
   margin-bottom: 0;
   border: none;
   border-radius: 0;
   padding: 0;
   position: relative;
-  background-color: transparent;
 }
 
 .header-navigation .container {
@@ -2464,11 +2464,12 @@ a:visited {
 /*
 * 7. cta style
 */
+
 .cta-one {
-  background: #e3d3c3 url(../images/background/cta-bg-1-1.jpg) 150px center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 155.5px 0;
+    background: url(../images/background/cta-bg-1-1.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding: 155.5px 0;
 }
 
 .cta-one:before {
@@ -2942,7 +2943,7 @@ a:visited {
 .feature-one {
   padding-top: 100px;
   padding-bottom: 70px;
-  background-color: #c1eb4f;
+  background-color: #798d43;
 }
 
 .feature-one__box {
@@ -2957,7 +2958,7 @@ a:visited {
 
 .feature-one__box-title {
   margin: 0;
-  color: #181E44;
+  color: #021200;
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   line-height: 47px;
@@ -3424,7 +3425,10 @@ a:visited {
 * 11. appointment style
 */
 .appointment-one {
-  background-color: #eff3f9;
+  background-image: url('../images/background/bg-image-faint.jpeg');
+  background-size: cover; /* This makes the image cover the entire container */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .appointment-one .inner-container {
@@ -6013,4 +6017,21 @@ a:visited {
 .patient__cta a {
   color: #EB4343;
   font-weight: bold;
+}
+
+
+
+
+
+.owl-controls {
+    display: none;
+}
+
+.banner-one__slide {
+    display: flex;
+    height: 80vh; /* Makes sure the banner takes the full height of the viewport */
+}
+
+.banner-one__btn-block {
+    margin-top: 20px; /* Adds some spacing between the text and the button */
 }
