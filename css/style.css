@@ -6035,3 +6035,19 @@ a:visited {
 .banner-one__btn-block {
     margin-top: 20px; /* Adds some spacing between the text and the button */
 }
+
+/*align hero text center by MO*/
+.text-left{
+  position: absolute;
+    left: 50%; /* Horizontally center the content */
+    bottom: 60px; /* Adjust this value to control how far from the bottom the text is */
+    transform: translateX(-50%); /* Adjust to center the content horizontally */
+    text-align: center !important; /* Center-align the text within the container */
+    color: #fff; /* Ensure the text is visible over the background */
+}
+
+
+
+
+
+
