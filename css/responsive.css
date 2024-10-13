@@ -891,3 +891,11 @@
         font-size: 28px;
     }
 }
+
+
+
+@media (max-width: 767px) {
+    .carousel-btn-block.banner-carousel-btn {
+    display: none;
+}
+}
