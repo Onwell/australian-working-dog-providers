@@ -823,7 +823,7 @@
     .topbar-one__language-picker,
     .topbar-one__btn {
         -webkit-box-flex: 1;
-        flex: 1 0 25%;
+        flex: auto;
         text-align: center;
     }
 

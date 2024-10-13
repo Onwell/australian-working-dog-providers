@@ -6081,7 +6081,7 @@ a:visited {
     }
 
     .text-left {
-        bottom: 50px; /* Adjust the text position closer to the bottom on smaller screens */
+        /*bottom: 50px;  Adjust the text position closer to the bottom on smaller screens */
         font-size: 16px; /* Adjust font size for better readability */
         padding: 0 20px; /* Add some padding to avoid text touching the edges */
     }
