@@ -1917,7 +1917,7 @@ a:visited {
 * 6. services style
 */
 .service-one {
-  padding-top: 85px;
+  padding-top: 20px;
   padding-bottom: 90px;
 }
 
@@ -6059,7 +6059,7 @@ a:visited {
 
 /* Make sure the button block has space */
 .banner-one__btn-block {
-    margin-top: 20px;
+    margin-top: 500px !important;
 }
 
 /* Center the text over the image and ensure it's responsive */
@@ -6091,21 +6091,3 @@ a:visited {
     }
 }
 
-
-
-/* By default, show the entire title */
-.cta-two__title {
-    display: block;
-}
-
-/* On mobile devices (768px and below), hide the entire title except the phone number */
-@media screen and (max-width: 768px) {
-    .cta-two__title {
-        font-size: 0; /* Hide the text */
-    }
-
-    .cta-two__highlight {
-        font-size: 16px; /* Display the phone number link in a readable size */
-        display: inline; /* Ensure the link is still visible */
-    }
-}

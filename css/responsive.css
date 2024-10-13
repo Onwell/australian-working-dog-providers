@@ -904,3 +904,10 @@
         font-size: 12px; /* Adjust this value to your desired mobile font size */
     }
 }
+
+@media screen and (max-width: 768px) {
+    .banner-one__btn-block {
+        margin-top: 250px !important;
+    }
+}
+
