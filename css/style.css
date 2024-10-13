@@ -6040,7 +6040,7 @@ a:visited {
 .text-left{
   position: absolute;
     left: 50%; /* Horizontally center the content */
-    bottom: 120px; /* Adjust this value to control how far from the bottom the text is */
+    bottom: 20px !important; /* Adjust this value to control how far from the bottom the text is */
     transform: translateX(-50%); /* Adjust to center the content horizontally */
     text-align: center !important; /* Center-align the text within the container */
     color: #fff; /* Ensure the text is visible over the background */
@@ -6050,7 +6050,7 @@ a:visited {
 /* General styling for the banner slider */
 .banner-one__slide {
     display: flex;
-    height: 80vh; /* Makes the banner 80% of the viewport height */
+    height: 100vh; /* Makes the banner 80% of the viewport height */
     background-size: cover; /* Ensures the background image covers the entire slide */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat;

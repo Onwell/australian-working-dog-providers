@@ -856,7 +856,7 @@
 
     .cta-one__title,
     .banner-one__title {
-        font-size: 32px;
+        font-size: 22px;
         line-height: 1.25em;
     }
 
@@ -894,8 +894,13 @@
 
 
 
-@media (max-width: 767px) {
     .carousel-btn-block.banner-carousel-btn {
     display: none;
 }
+
+/* Responsive font size for mobile devices (screens 768px and smaller) */
+@media screen and (max-width: 768px) {
+    .banner-one__tag-line {
+        font-size: 12px; /* Adjust this value to your desired mobile font size */
+    }
 }
