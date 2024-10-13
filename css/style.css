@@ -6047,3 +6047,10 @@ a:visited {
 }
 
 
+@media (max-width: 425px) {
+    .topbar-one__btn {
+        -webkit-box-flex: 1;
+        flex: auto !important;
+        text-align: center;
+    }
+}
