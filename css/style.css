@@ -6047,10 +6047,65 @@ a:visited {
 }
 
 
-@media (max-width: 425px) {
-    .topbar-one__btn {
-        -webkit-box-flex: 1;
-        flex: auto !important;
-        text-align: center;
+/* General styling for the banner slider */
+.banner-one__slide {
+    display: flex;
+    height: 80vh; /* Makes the banner 80% of the viewport height */
+    background-size: cover; /* Ensures the background image covers the entire slide */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat;
+    width: 100%; /* Ensures the banner takes the full width */
+}
+
+/* Make sure the button block has space */
+.banner-one__btn-block {
+    margin-top: 20px;
+}
+
+/* Center the text over the image and ensure it's responsive */
+.text-left {
+    position: absolute;
+    left: 50%;
+    bottom: 120px;
+    transform: translateX(-50%);
+    text-align: center !important;
+    color: #fff;
+}
+
+/* Responsive adjustments for mobile screens */
+@media screen and (max-width: 768px) {
+    .banner-one__slide {
+        height: 50vh; /* Reduce the height on mobile devices */
+        background-size: cover; /* Ensures image covers entire area on smaller screens */
+        background-position: center;
+    }
+
+    .text-left {
+        bottom: 50px; /* Adjust the text position closer to the bottom on smaller screens */
+        font-size: 16px; /* Adjust font size for better readability */
+        padding: 0 20px; /* Add some padding to avoid text touching the edges */
+    }
+
+    .banner-one__btn-block {
+        margin-top: 10px; /* Reduce the space between text and button on mobile */
+    }
+}
+
+
+
+/* By default, show the entire title */
+.cta-two__title {
+    display: block;
+}
+
+/* On mobile devices (768px and below), hide the entire title except the phone number */
+@media screen and (max-width: 768px) {
+    .cta-two__title {
+        font-size: 0; /* Hide the text */
+    }
+
+    .cta-two__highlight {
+        font-size: 16px; /* Display the phone number link in a readable size */
+        display: inline; /* Ensure the link is still visible */
     }
 }
